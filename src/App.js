@@ -112,7 +112,7 @@ const App = () => {
               </Button>
             </div>
           ) : (
-            <h1 className="text-center text-warning">
+            <h1 className="text-center text-danger">
               {isCross ? "Cross" : "Circle"}'s turn
             </h1>
           )}
